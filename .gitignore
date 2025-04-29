@@ -1,0 +1,6 @@
+# .gitignore
+node_modules/
+.env
+zoho-token.json
+*.log
+.DS_Store
