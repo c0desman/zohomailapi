@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 1.1. Create a Zoho Mail Account
 Make sure orders@halalfood.live is a valid account in Zoho Mail (preferably via Zoho Workplace).
 
@@ -67,3 +68,7 @@ curl --location --request POST 'http://localhost:3000/send-email' \
   "text": "Hello from Zoho Mail API!",
   "html": "<h1>Hello from Zoho API</h1>"
 }'
+=======
+# zohomailapi
+Can send Zoho Mail Via API OAUTH
+>>>>>>> 938be8b18bc08ea309dbfdc3b74aabfa9f5262f8
