@@ -98,7 +98,7 @@ curl --location --request POST 'http://localhost:3000/send-email' \
   "to": "someone@example.com",
   "subject": "Test via API",
   "text": "Hello from Zoho Mail API!",
-  "html": "Hello from Zoho API>"
+  "html": "Hello from Zoho API"
 }'
 
 Or use Postman with the same POST request.
