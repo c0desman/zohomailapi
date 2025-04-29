@@ -1,4 +1,4 @@
-# 📬 Zoho Mail API Integration – HalalFood Mail API
+# 📬 Zoho Mail API Integration
 
 Send emails programmatically using the Zoho Mail API (without SMTP) from a Node.js + Express backend. This project is configured to use **OAuth2.0** and supports **token persistence** for long-term use.
 
@@ -98,7 +98,7 @@ curl --location --request POST 'http://localhost:3000/send-email' \
   "to": "someone@example.com",
   "subject": "Test via API",
   "text": "Hello from Zoho Mail API!",
-  "html": "<h1>Hello from Zoho API</h1>"
+  "html": "Hello from Zoho API>"
 }'
 
 Or use Postman with the same POST request.
@@ -107,7 +107,7 @@ Or use Postman with the same POST request.
 Never commit .env or zoho-token.json to GitHub. These contain sensitive credentials.
 
 ### 🙋‍♂️ Questions?
-Feel free to open an issue or contact the maintainer at c0desman
+Feel free to open an issue or contact.
 ---
 
 This `README.md` contains detailed setup instructions for your Zoho Mail API project. You can add it to your project
